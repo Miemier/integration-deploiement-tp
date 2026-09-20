@@ -16,27 +16,22 @@
 
 ---
 
-### 4. Exécuter un conteneur
-![docker --version](images/3.4.png)
+### 4. Construction de l'image
+![docker --version](images/5.2.png)
 
 ---
 
-### 5. Lister les conteneurs en cours d'exécution
-![docker --version](images/3.5.png)
+### 5. Lancement du conteneur
+![docker --version](images/5.4.png)
 
 ---
 
-### 6. Lister tous les conteneurs (actifs et stoppés)
-![docker --version](images/3.6.png)
+### 6. Test navigateur
+![docker --version](images/5.5.png)
 
 ---
 
-### 7. Supprimer le conteneur
-![docker --version](images/3.7.png)
-
----
-
-### 8. Supprimer l'image
-![docker --version](images/3.8.png)
+### 7. Nettoyage
+![docker --version](images/5.6.png)
 
 ---
