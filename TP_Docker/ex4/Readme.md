@@ -1,4 +1,4 @@
-# Exercice : Manipulation de base des conteneurs
+# Exercice : Création d'un serveur web avec Docker
 
 
 ### 1. Téléchargez l'image officielle Nginx
