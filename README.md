@@ -30,9 +30,9 @@ TP\_Docker/
 | Exercice  | Objectif                                            | Statut    |
 |-----|-----------------------------------------------------|-----------|
 | Ex3 | Commandes Docker de base (pull, run, ps, rm, rmi)   | ✅ terminé |
-| Ex4 | Lancer Nginx dans un conteneur avec mappage de port | à faire   |
-| Ex5 | Dockeriser une application Flask avec un Dockerfile | à faire   |
-| Ex6 | Orchestrer Flask + MongoDB avec docker compose      | à faire   |
+| Ex4 | Lancer Nginx dans un conteneur avec mappage de port | ✅ terminé |
+| Ex5 | Dockeriser une application Flask avec un Dockerfile | ✅ terminé |
+| Ex6 | Orchestrer Flask + MongoDB avec docker compose      | ✅ terminé |
 
 
 
@@ -43,17 +43,24 @@ TP\_Docker/
 
 Chaque dossier contient son propre Readme.md avec les commandes détaillées.
 
+Pour tester l'ex6 (Flask + MongoDB avec Docker Compose) :
+
+``` powershell
+cd TP_Docker/ex6
+docker compose up -d --build
+```
+
+Application : http://localhost:5000
+
+Vérification connexion BDD : http://localhost:5000/db-check
 
 
-Pour le TP4 (Flask + MongoDB) :
 
 
+## Auteur
 
-&#x20;   cd TP\_Docker/ex4\_flask\_mongo
+**Mengyi YANG**
 
-&#x20;   docker compose up -d --build
+MIAGE IPM FI
 
-&#x20;   curl http://localhost:5000/health
-
-
-
+22208372
